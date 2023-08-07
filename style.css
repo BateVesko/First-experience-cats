@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(255, 156, 90);
+    background-color: rgb(255, 199, 162);
 }
 h1, h2 {
     font-family: 'Trebuchet MS';
@@ -16,12 +16,12 @@ h3 {
 }
 .fancy-text {
     font-style:italic;
-    text-decoration:underline;
+    /* text-decoration:underline; */
 }
 
 p.fancy-text{
     color: rgb(255, 255, 255);
-    background-color: blue;
+    background-color: rgb(168, 57, 107);
 }
 
 #cpecific-paragraph {
