@@ -11,7 +11,8 @@ h1, h2 {
 h3 {
     font-family:Arial;
     text-align:left;
-    font-size: 20px;
+    font-size: 30px;
+    font-style:italic;
     padding-bottom:0% ;
 }
 .fancy-text {
@@ -25,8 +26,8 @@ p.fancy-text{
 }
 
 #cpecific-paragraph {
-    color: azure;
-    background-color: rgb(233, 19, 55);
-    font-style: oblique;
+    color: rgb(24, 149, 252);
+    background-color: rgb(255, 19, 58);
+    font-style:italic;
     font-size: x-large;
 }
