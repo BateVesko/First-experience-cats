@@ -31,3 +31,16 @@ p.fancy-text{
     font-style:italic;
     font-size: x-large;
 }
+
+a:link, a:visited {
+    background-color: #ec5f01;
+    color: #3616ee;
+    padding: 5px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a:hover, a:active {
+    background-color: #fc7474;
+  }
