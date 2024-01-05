@@ -1,13 +1,12 @@
 
 
 body {
-    /* margin-top: 200px; */
     background-color: rgb(255, 199, 162);
-    /* margin: 50px; */
+    margin: 0;
     padding: 10%;
     display: flex;
     flex-direction:column;
-    min-height: auto;
+    min-height: 100px;
 }
 
 .custom-header {
@@ -15,7 +14,7 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  background-color: rgb(168, 57, 107,.95);
+  background-color: rgb(168, 57, 107,0.8);
   color: #fdfbfb;
   padding: 20px;
   z-index: 1000; /* Определя подредбата на слоевете */
@@ -23,13 +22,13 @@ body {
   border-bottom: 3px solid #f12222; /* Добавете разделителната линия */
 }
 
-Структура и стилове за контейнера със съдържанието
+/* Структура и стилове за контейнера със съдържанието
 .content {
-  width: 90%; /* Определена ширина на контейнера */
-  margin: auto; /*Отместване отгоре и отдолу, автоматично центриране по хоризонтала*/
-  padding: 10px; /*Вътрешни отстъпи*/
-  background-color: rgb(255, 199, 16); /*Фонов цвят*/
-}
+  width: 60%; /* Определена ширина на контейнера */
+  /* margin: 0px auto; Отместване отгоре и отдолу, автоматично центриране по хоризонтала */
+  /* padding: 10px; Вътрешни отстъпи */
+  /* background-color: rgb(255, 199, 162); Фонов цвят */
+/* } */
 
 /* Стилове за текста в контейнера */
 /* .content p { */
@@ -90,8 +89,6 @@ a:link, :visited {
     background-color: #6936f5;
   }
 
-  
-
   footer {
     border-top: 5px solid #ec2727; /* Добавете разделителната линия */
     margin-top: auto;
@@ -110,16 +107,16 @@ a:link, :visited {
     z-index: 1000; /* Определя подредбата на слоевете */
     height: 70px; /* Фиксирана височина */
   }
-/* 
+
   /* Стилове за съдържанието */
-  /* .content { */
-    /* margin-top: 60px; Отместване отгоре, за да избегнем закриване от заглавната част */
-    /* margin-bottom: 60px; Отместване отдолу, за да избегнем закриване от подвалната част */
-    /* padding: 20px; */
-    /* background-color: rgb(0, 199, 162); */
-    /* line-height: 1.6; */
-    /* position: relative; Добавете relative positioning */
-  /* } */
+  .content {
+    margin-top: 60px; /* Отместване отгоре, за да избегнем закриване от заглавната част */
+    margin-bottom: 60px; /* Отместване отдолу, за да избегнем закриване от подвалната част */
+    padding: 20px;
+    background-color: rgb(0, 199, 162);
+    line-height: 1.6;
+    position: relative; /* Добавете relative positioning */
+  }
   /* Стилове за снимката */
   /* .content img {
     max-width: 80%;
@@ -130,48 +127,23 @@ a:link, :visited {
  /* Стилове за горния раздел */
 .top-section {
   display: flex;
-  flex-direction: row;
-  align-items:normal;
+  align-items: center;
 }
 
 .top-section img {
-  width: auto; /* Увеличете ширината на снимката до 100% */
+  width: 100%; /* Увеличете ширината на снимката до 100% */
   height: auto;
   max-width: none; /* Премахнете ограничението на максималната ширина */
-
 }
 
-.image-description-01 {
+.image-description {
   padding-left: 50px;
   max-height: 800px; /* Максимална височина на текстовия блок */
-  max-width: 100%;
-  overflow: hidden; /*Скриване на излишното съдържание, което надвишава височината*/
-  /* text-align: justify; Подравняване на текста отляво и отдясно */
-}
-
-.image-description-02 {
-  margin-top: 30px;
-  padding-left: 0px;
-  max-height: 800px; /* Максимална височина на текстовия блок */
-  max-width: 100%;
   overflow: hidden; /*Скриване на излишното съдържание, което надвишава височината*/
 }
 
-.image-description-01 p {
+.image-description p {
   font-size: 30px; /* Увеличете размера на шрифта за по-голям текст */
   line-height: 2; /* Разстояние между редовете */
   margin: 0;
-  text-align: justify;
-}
-
-.image-description-02 p {
-  font-size: 25px; /* Увеличете размера на шрифта за по-голям текст */
-  line-height: 2; /* Разстояние между редовете */
-  margin: 0%;
-  text-align: justify;
-}
-
-.text {
-  display: inline-block; /* За да избегнете излишен padding от подравнения текст */
-  max-width: 100%; /* Ограничава максималната ширина, за да запази подравняването */
 }
